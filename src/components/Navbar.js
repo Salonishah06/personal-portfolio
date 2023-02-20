@@ -8,7 +8,7 @@ import navIcon3 from '../assets/img/nav-icon3.svg'
 import { Navbar, Container } from 'react-bootstrap'
 import Nav from 'react-bootstrap/Nav';
 
-export const NavBar = () => {
+const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
 
